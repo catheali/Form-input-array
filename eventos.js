@@ -6,7 +6,7 @@ let alunos =[
 ]
 
 function AddAluno(){
-    event.preventDefault();
+    
     alunos.push([`${nome.value}`,`${email.value}`,`${telefone.value}`]);
     listar();
 }
